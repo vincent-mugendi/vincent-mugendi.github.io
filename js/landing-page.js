@@ -52,3 +52,15 @@ $(document).ready(function () {
 
     });
 });
+
+// Hero Section Animations
+
+    // Aroow-down Animation
+$(document).ready(function () {
+    setInterval(function () {
+        $('.arrow-down').addClass('shake');
+        setTimeout(function () {
+            $('.arrow-down').removeClass('shake');
+        }, 3000); // Remove 'shake' class after 5 seconds
+    }, 8000); // Add 'shake' class every 3 seconds
+});
